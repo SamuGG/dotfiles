@@ -1,0 +1,27 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.fontFamily": "Hack, 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "omnisharp.useModernNet": true,
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "git.autofetch": true,
+    "cSpell.diagnosticLevel": "Hint",
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
+        ".devcontainer"
+    ],
+    "omnisharp.enableRoslynAnalyzers": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "shellcheck.executablePath": "/Users/samugg/code-portable-data/extensions/timonwong.shellcheck-0.19.6/binaries/darwin/x64/shellcheck"
+}

@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = SamuGG
+	email = SamuGG@users.noreply.github.com
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = nano
+[init]
+	defaultBranch = main
