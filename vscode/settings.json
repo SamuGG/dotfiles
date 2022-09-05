@@ -23,5 +23,8 @@
     "omnisharp.enableRoslynAnalyzers": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
-    "shellcheck.executablePath": "/Users/samugg/code-portable-data/extensions/timonwong.shellcheck-0.19.6/binaries/darwin/x64/shellcheck"
+    "shellcheck.executablePath": "/Users/samugg/code-portable-data/extensions/timonwong.shellcheck-0.19.6/binaries/darwin/x64/shellcheck",
+    "editor.experimental.useCustomCodeActionMenu": true,
+    "markdown.experimental.updateLinksOnFileMove.enabled": "prompt",
+    "terminal.integrated.defaultProfile.linux": "zsh"
 }
