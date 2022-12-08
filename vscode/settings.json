@@ -1,15 +1,5 @@
 {
-    "workbench.startupEditor": "none",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.fontFamily": "Hack, 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 13,
-    "omnisharp.useModernNet": true,
-    "files.exclude": {
-        "**/bin": true,
-        "**/obj": true
-    },
-    "git.autofetch": true,
+    "aws.telemetry": false,
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.ignorePaths": [
         "package-lock.json",
@@ -20,11 +10,24 @@
         ".vscode-insiders",
         ".devcontainer"
     ],
-    "omnisharp.enableRoslynAnalyzers": true,
-    "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true,
-    "shellcheck.executablePath": "/Users/samugg/code-portable-data/extensions/timonwong.shellcheck-0.19.6/binaries/darwin/x64/shellcheck",
     "editor.experimental.useCustomCodeActionMenu": true,
+    "editor.fontFamily": "Hack, 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
     "markdown.experimental.updateLinksOnFileMove.enabled": "prompt",
-    "terminal.integrated.defaultProfile.linux": "zsh"
+    "omnisharp.enableRoslynAnalyzers": true,
+    "omnisharp.useModernNet": true,
+    "shellcheck.executablePath": "/Users/samugg/code-portable-data/extensions/timonwong.shellcheck-0.19.6/binaries/darwin/x64/shellcheck",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.startupEditor": "none"
 }
